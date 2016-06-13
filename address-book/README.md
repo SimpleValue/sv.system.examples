@@ -11,11 +11,11 @@ the fact that
 [reagent-template](https://github.com/reagent-project/reagent-template)
 has been used to generate the scaffold for the project. For a real
 project it is recommendable to take a look at projects like
-[re-frame](https://github.com/Day8/re-frame) ([re-frame lein
+[re-frame](https://github.com/Day8/re-frame) (see also [re-frame lein
 template](https://github.com/Day8/re-frame-template)), which provide
 more structure / architecture on top of Reagent.
 
-The address-book.system namespace is a good starting point to take a
+The `address-book.system` namespace is a good starting point to take a
 look at the sv/system related parts of the system.
 
 ## Usage
