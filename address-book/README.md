@@ -18,6 +18,28 @@ more structure / architecture on top of Reagent.
 The address-book.system namespace is a good starting point to take a
 look at the sv/system related parts of the system.
 
+## Usage
+
+When you start a REPL with:
+
+```
+lein repl
+```
+
+the system is started automatically. If you have changed system
+components, you should restart the system with
+`(sv.system.main/restart)` (or the shortcut `(dev/restart)`).
+
+For the frontend part invoke:
+
+```
+lein figwheel
+```
+
+afterwards you can visit http://localhost:3449/ to see the
+application.
+
+
 ## License
 
 Copyright © 2016 Max Weber (SimpleValue)
